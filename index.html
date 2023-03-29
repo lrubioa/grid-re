@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #container {
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            grid-template-rows: auto auto auto auto auto auto auto auto;
+
+            gap: 4px;
+        }
+
+        .picture-area {
+            background-color: blue;
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        #o1 {
+            background-color: pink;
+
+            grid-column: 1/ span 4;
+            grid-row: 1/ span 3;
+        }
+
+        #o5 {
+            background-color: plum;
+
+            grid-column: 1/ span 2;
+        }
+
+        #o9 {
+            background-color: crimson;
+
+            grid-row: 5/7;
+        }
+
+        #o10 {
+            background-color: chartreuse;
+
+            grid-column: 2/ 4;
+        }
+
+        #o13 {
+            grid-row: 7/ 8;
+        }
+
+        #o14 {
+            grid-row: 6/ 8;
+        }
+
+        #o15 {
+            grid-column: 3/ 5;
+        }
+
+        #o21{
+            grid-column: 2/4;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div class="picture-area" id="o1"><img src="/grid-practice/ce_logo.png" alt="logo"></div>
+        <div class="picture-area" id="o2"><img src="/grid-practice/ce_image01.png" alt="find us on facebook"></div>
+        <div class="picture-area" id="o3"><img src="/grid-practice/ce_image02.png" alt="find us on twitter"></div>
+        <div class="picture-area" id="o4"><img src="/grid-practice/ce_image03.png" alt="mask"></div>
+        <div class="picture-area" id="o5"><img src="/grid-practice/ce_image04.png" alt="birthday party"></div>
+        <div class="picture-area" id="o6"><img src="/grid-practice/ce_image05.png" alt="the joker"></div>
+        <div class="picture-area" id="o7"><img src="/grid-practice/ce_image06.png" alt="old woman"></div>
+        <div class="picture-area" id="o8"><img src="/grid-practice/ce_image07.png" alt="woman with pink wig"></div>
+        <div class="picture-area" id="o9"><img src="/grid-practice/ce_image08.png" alt="singer"></div>
+        <div class="picture-area" id="o10"><img src="/grid-practice/ce_image09.png" alt="superhero"></div>
+        <div class="picture-area" id="o11"><img src="/grid-practice/ce_image10.png" alt="candy"></div>
+        <div class="picture-area" id="o12"><img src="/grid-practice/ce_image11.png" alt="hats"></div>
+        <div class="picture-area" id="o13"><img src="/grid-practice/ce_image12.png" alt="props"></div>
+        <div class="picture-area" id="o14"><img src="/grid-practice/ce_image13.png" alt="christmas santa"></div>
+        <div class="picture-area" id="o15"><img src="/grid-practice/ce_image14.png" alt="classic"></div>
+        <div class="picture-area" id="o16"><img src="/grid-practice/ce_image15.png" alt="free shipping $75+"></div>
+        <div class="picture-area" id="o17"><img src="/grid-practice/ce_image16.png" alt="kids trick or treating 1"></div>
+        <div class="picture-area" id="o18"><img src="/grid-practice/ce_image17.png" alt="kids trick or treating 2"></div>
+        <div class="picture-area" id="o19"><img src="/grid-practice/ce_image18.png" alt="witches, ghouls, and goblins"></div>
+        <div class="picture-area" id="o20"><img src="/grid-practice/ce_image19.png" alt="skull"></div>
+        <div class="picture-area" id="o21"><img src="/grid-practice/ce_image20.png" alt="mardi gras"></div>
+    </div>
+</body>
+
+</html>
